@@ -1,0 +1,41 @@
+#portfolio_content{
+background-color: #CCCCCC;
+border: 1px solid #E1E1E1;
+margin-top: 30px;
+}
+.content{
+margin: 1px 1px 1px 1px;
+background-color: #FFFFFF;
+}
+.column{
+padding-left: 20px;
+float: left;
+width : 35%;
+}
+.content h3{
+color:#E75700;
+font-size:22px;
+margin: 30px 0px 30px 0px;
+text-align: center;
+}
+.column p{
+text-align: justify;
+}
+.right{
+text-align: center;
+padding: 20px 0px 20px 0px;
+}
+.jcarousel-list li{
+list-style: none;
+color:#800000;
+font-family: verdana, arial, sans-serif;
+}
+.right img {
+height:350px;
+padding-left:14px;
+width:59%;
+}
+.jcarousel-skin-tango {
+	margin-left: 0px;
+}
+
