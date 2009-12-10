@@ -1,22 +1,9 @@
 ---
 layout: default
 ---
-
 <script type="text/javascript">
     $("li.menu1").removeClass("selected");
     $("li.menu4").addClass("selected");
-//<![CDATA[
-(function() {
-	var links = document.getElementsByTagName('a');
-	var query = '?';
-	for(var i = 0; i < links.length; i++) {
-	if(links[i].href.indexOf('#disqus_thread') >= 0) {
-		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
-	}
-	}
-	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/aps/get_num_replies.js' + query + '"></' + 'script>');
-})();
-//]]>
 </script>
 <div id="contentcontainer1">
     <div id="blog-body">
@@ -26,7 +13,5 @@ layout: default
         <div id="post-content">
             {{ content }}
         </div><br/>
-        <a href="{{post.url}}#disqus_thread">Comments</a><br/><br/>
-        <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/aps/embed.js"></script><noscript><a href="http://disqus.com/forums/aps/?url=ref">View the discussion thread.</a></noscript>
     </div>
 </div>
