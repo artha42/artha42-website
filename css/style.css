@@ -26,7 +26,7 @@ body{
 	width: 892px;
 	height: 140px;
 	/*background:transparent url(/images/header.png);*/
-	background-color: #555555;
+	background-color: #373737;
 }
 #header h2{
 	float: right;
@@ -56,7 +56,7 @@ body{
 	height:30px;
 }
 #topnav {
-	background:#373737;
+	background:#555555;
 }
 #topnav ul.mainnav {
 	margin:0 auto;
@@ -368,6 +368,6 @@ p{
 #rss-feed
 {
     float:right;
-    margin-right:120px;
-    margin-top:-16px;
+    margin-right:35px;
+    margin-top:-10px;
 }

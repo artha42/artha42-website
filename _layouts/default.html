@@ -22,11 +22,13 @@
   <script src="/js/jquery.jcarousel.js" type="text/javascript">
 </script>
   <script type="text/javascript">
-        var disqus_url = "http://artha42-website.disqus.com";
+        var disqus_url = 'http://preview.artha42.com{{page.url}}';
+        //var disqus_url = '{{post.title}}';
         $(document).ready(function(){
 			$("#center_content").corner("10px");
-			$("#topnav ul.mainnav li").corner("10px top");
-			$("#topnav ul.mainnav li.selected").corner("10px top");
+			$("#blog_content").corner("10px");
+			$("#ul.mainnav li").corner("10px top");
+			$("#ul.mainnav li.selected").corner("10px top");
             $('#mycarousel').jcarousel();
         });
   </script>
