@@ -1,0 +1,26 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Artha42 Blog</title>
+ <link type="application/atom+xml" rel="self" href="http://www.artha42.com/rss.xml"/>
+ <link type="text/html" rel="alternate" href="http://www.artha42.com/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>www.artha42.com</id>
+ <author>
+   <name>{{ post.author }}</name>
+ </author>
+
+ {% for post in site.posts %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://preview.artha42.com{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://www.artha42.com{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+
+</feed>
