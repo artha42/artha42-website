@@ -167,7 +167,7 @@ a {
 }
 #left{
 	width: 268px;
-	height: 400px;
+	height: 450px;
 	background-color: #F5F5F5;
 	float: left;
 	margin: 10px 11px 0px 0px;
@@ -183,11 +183,12 @@ h4{
 }
 p{
 	color: #092A4B;
+	padding: 10px;
 	text-align: justify;
 }
 #middle{
 	width: 268px;
-	height: 400px;
+	height: 450px;
 	float: left;
 	background-color: #F5F5F5;
 	margin: 10px 11px 0px 6px;
@@ -199,7 +200,7 @@ p{
 }
 #right{
 	width: 268px;
-	height: 400px;
+	height: 450px;
 	float: left;
 	background-color: #F5F5F5;
 	margin: 10px 0px 0px 6px;
