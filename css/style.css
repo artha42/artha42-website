@@ -133,7 +133,7 @@ a {
 }
 #contentcontainer {
 	background:#FFFFFF none repeat scroll 0 0;
-	margin:25px 0 0;
+	margin:25px 5px 0;
 	overflow:hidden;
 	width:892px;
     min-height:650px;
@@ -242,6 +242,27 @@ p{
 	overflow:hidden;
 	width:892px;
     min-height:650px;
+}
+#contentcontainer1 h2{
+  margin: 10px;
+}
+#contentcontainer1 p.jd{
+  margin: 5px;
+  color: #000;
+  font-size: small;
+}
+#contentcontainer1 ul
+{
+  margin-left: 10px;
+  font-size: small;
+  background-color: #eecece
+}
+#contentcontainer1 ul li{
+  padding: 15px;
+}
+
+span.strong {
+  font-weight: bold;
 }
 #content_carousel {
 	background:#FFFFFF none repeat scroll 0 0;
