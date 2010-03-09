@@ -261,6 +261,13 @@ p{
   padding: 15px;
 }
 
+#contentcontainer1 pre code{
+  margin-left: 20px;
+  font-family: "Monaco","Consolas",monospace
+  background-color: #555555
+  color: #ffffff
+}
+
 span.strong {
   font-weight: bold;
 }
